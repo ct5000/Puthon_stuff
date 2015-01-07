@@ -1,0 +1,18 @@
+from Tkinter import *
+
+master = Tk()
+
+Label(text="one").pack()
+
+separator = Frame(height=2, bd=1, relief=SUNKEN)
+separator.pack(fill=X, padx=5, pady=5)
+
+Label(text="two", fg = "red").pack()
+
+group = LabelFrame(master, text="Group", padx=5, pady=5)
+group.pack(padx=10, pady=10)
+
+w = Entry(group)
+w.pack()
+
+mainloop()

@@ -7,7 +7,7 @@ def getValue():
     
 root = Tk()
 
-listbox = Listbox(root)
+listbox = Listbox(root, selectmode = MULTIPLE)
 listbox.pack()
 variabler = ['v', 't', 's', 'a']
 
